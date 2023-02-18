@@ -1,0 +1,78 @@
+/* Homepage Index */
+main {
+    height: 675px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 12px;
+    letter-spacing: 3px;
+}
+
+.intro {
+    background-color:rgba(255, 255, 255, 0.491);
+    font-size: 18px;
+    border: inset; 
+    border-radius: 80px;
+    border-width: 6px; 
+    padding: 30px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.491);
+    height: 150px;
+    padding-top: 20px;
+    border: inset;
+    border-radius: 80px;
+    border-width: 6px; 
+}
+
+.skill-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    height: 200px;
+    width: 800px;
+    font-size: 22px;
+    background-color:rgba(255, 255, 255, 0.491);
+    border: inset;
+    border-radius: 80px;
+    border-width: 6px; 
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 40px;
+    padding-top: 6px;
+    height: 70px;
+    width: 600px;
+    margin: 25px 0px 50px 0px;
+    letter-spacing: 3px;
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+    height: 150px;
+    text-align: center;
+    /* margin: 0px 0px 0px 0px; */
+}
+
+section img {
+    height: 55px;
+    width: 75px;
+    margin: 0px 0px 10px 0px;
+}
+
+h3 {
+    padding-top: 45px;
+}

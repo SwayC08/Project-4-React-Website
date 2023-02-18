@@ -1,0 +1,109 @@
+
+/* Main CSS*/
+/* Fonts Used */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sahitya:wght@700&display=swap');
+
+/* Site wide style */
+* {
+    font-family: 'Sahitya', serif;
+    /* font-family: 'Anton', sans-serif; */
+    box-sizing: border-box;
+    color: rgb(81, 78, 78);
+}
+
+/* Header style */
+header {
+    background-color: azure;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-items: center;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 64px;
+    border-bottom: 4px outset;
+    color: rgb(81, 78, 78);
+}
+
+.name {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/* Header Menu style */
+.site-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    font-size: 25px;
+}
+
+.site-menu a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: thick solid;
+}
+
+body {
+    background-color:#373e41;
+}
+/* background-color:#60B4D6; */
+
+/* Body style */
+#main-body {
+    background-color:#60B4D6;
+    margin: 0 auto;
+    width: 900px;
+    padding: 50px;
+    padding-top: 60px;
+    /* border: dotted orange; */
+}
+
+/* Footer style */
+footer {
+    background-color: azure;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 64px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 7px;
+    border-top: 4px inset;
+}
+
+/* Footer Remove Hyperlink between Icons */
+footer a{
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 45px;
+    width: 550px;
+}
+
+/* Footer Icon style */
+footer a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
