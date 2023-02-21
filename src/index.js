@@ -1,15 +1,20 @@
 import { createRoot } from 'react-dom/client'
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import {Header, Main, Footer, About, Portfolio} from './components';
 
 const HomeP = () => {
     return (
-        <body id="main-body">
-            <Header />
-            <Main />
-            <Footer />
-        </body>
+        <BrowserRouter>
+            <body id="main-body">
+                <Header /> 
+                <Routes>
+                    <Route path="/" element={ <Main /> }/>
+                    <Route path="/About" element={ <About /> }/>
+                    <Route path="/Portfolio" element={ <Portfolio /> }/>
+                </Routes>
+                <Footer />
+            </body>
+        </BrowserRouter>
     )
 };
 

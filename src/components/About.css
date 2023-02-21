@@ -1,0 +1,63 @@
+.About {
+    height: 1325px;
+}
+
+.About h2 {
+    font-size: 30px;
+    padding: 12px;
+    letter-spacing: 1px;
+}
+
+.About h3 {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/* Indent paragraphs */
+.indent {
+    text-indent: 30px;
+}
+
+/* Image sizes and spacing */
+.About section img {
+    height: 175px;
+    width: 225px;
+    float: right;
+    margin: -45px -5px 20px 10px;
+    border: outset;
+    border-radius: 80px;
+    border-width: 6px;
+}
+
+.camping {
+    background-color:rgba(255, 255, 255, 0.491);
+    font-size: 18px;
+    border: inset; 
+    border-radius: 80px;
+    border-width: 6px; 
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.traveling {
+    background-color:rgba(255, 255, 255, 0.491);
+    font-size: 18px;
+    border: inset;
+    border-radius: 80px;
+    border-width: 6px; 
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.B-K {
+    background-color:rgba(255, 255, 255, 0.491);
+    font-size: 18px;
+    border: inset; 
+    border-radius: 80px;
+    border-width: 6px; 
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
