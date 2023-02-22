@@ -18,9 +18,9 @@ const Portfolio = () => {
                 
             </section>
             <section class="third-project">
-                <h3>3<sup>rd</sup> Project: TicTacToe Game</h3>
+                <h3>3<sup>rd</sup> Project: Tic-Tac-Toe Game</h3>
                 <img src="https://www.impactbnd.com/hs-fs/hubfs/development-terms-featurd.jpg?length=1200&name=development-terms-featurd.jpg" alt="Software construction picture"/>
-                <p class="indent"> I created a TicTacToe game using JavaScript</p>
+                <p class="indent"> I created a Tic-Tac-Toe game using JavaScript.</p>
                 <p class="indent"> Here is a link to the site: <a href="https://rad-snickerdoodle-6254c2.netlify.app/" alt="TicTacToe Game Link" target="_blank">TicTacToe Game</a></p>
             </section>
         </main>
